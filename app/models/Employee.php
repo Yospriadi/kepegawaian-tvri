@@ -42,7 +42,7 @@ class Employee {
         $this->db->bind("first_name", $data['first_name']);
         $this->db->bind('last_name', $data['last_name']);
         $this->db->bind("email", $data['email']);
-        $this->db->bind("rank", $data['rank']);
+        $this->db->bind("rank", $data['ank']);
         return $this->db->execute();
     }
 
